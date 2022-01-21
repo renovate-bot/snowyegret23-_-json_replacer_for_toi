@@ -106,7 +106,7 @@ def mainStart(input_dir, input_add_dir, out_txt):
         for erdata in errorData:
             errorDatas.append(erdata)
 
-        with open(f"./output/{listb[n]}.json", "w") as oj:
+        with open(f"./output/{lista[n]}.json", "w") as oj:
             json.dump(mainData, oj, indent=4)
         print(f"{lista[n]}.json 데이터 수정 완료!")
 
