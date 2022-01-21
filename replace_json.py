@@ -132,6 +132,6 @@ if __name__ == "__main__":
     print("프로그램 시작")
     folderCheck(input_dirr, input_add_dirr, output_dirr)
     mainStart(input_dirr, input_add_dirr, output_txtt)
-    print("작업을 완료했습니다.")
+    print("작업을 완료했습니다!")
     os.system("pause")
     sys.exit()
