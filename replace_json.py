@@ -1,7 +1,6 @@
 import json
 import os
 import sys
-import shutil
 
 
 def folderCheck(infolder, addfolder, outfolder):
@@ -40,6 +39,8 @@ def makeInputList(inDir, inAddDir):
     except Exception as e:
         print(f"에러가 발생했습니다. 혹시 _add를 추가하지 않으셨나요?")
         print(f"에러메세지: {e}")
+        os.system("pause")
+        sys.exit()
 
 
 def changeData(Filename, Data, addData):
